@@ -2,6 +2,7 @@ package ru.innopolis.java.homework02.task2;
 
 import java.util.Scanner;
 
+
 public class ArithmeticOperations {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
