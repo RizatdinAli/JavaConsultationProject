@@ -3,7 +3,6 @@ package ru.innopolis.java.homework04.task2;
 
 import java.util.Scanner;
 
-
 public class ArrowCount {
 
     public static void main(String[] args) {
