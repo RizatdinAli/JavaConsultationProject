@@ -9,11 +9,16 @@ public class Person {
     private int money;
     private List<Product> bag;
 
+    public Person() {
+
+    }
+
     public Person(String name, int money) {
         this.name = name;
         this.money = money;
         bag = new ArrayList<>();
     }
+
 
     public String getName() {
         return name;
