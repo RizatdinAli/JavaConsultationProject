@@ -57,7 +57,7 @@ public class Main {
     }
 
     public static void writePersonData(Person person) {
-        String filePath = "C:\\Users\\Ali\\Documents\\JavaConsultationProject\\src\\ru\\innopolis\\java\\homework12\\" + person.getLastName() + ".txt";
+        String filePath = "src/ru/innopolis/java/homework12/Иванов.txt" + person.getLastName() + ".txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             writer.write(person.getLastName() + " " + person.getFirstName() + " " + person.getMiddleName() + " " +
                     person.getBirthDate() + " " + person.getPhoneNumber() + " " + person.getGender() + " " + person.getAge());
