@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import ru.innopolis.java.homework14.Product;
 
@@ -34,4 +35,11 @@ public class ProductTest {
 
         assertEquals(product1.hashCode(), product2.hashCode());
     }
+    @Disabled
+    @Test
+    public void testIgnoredMethod() {
+        // Тест, который будет проигнорирован
+    }
+
+
 }

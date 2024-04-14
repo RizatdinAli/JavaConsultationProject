@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import ru.innopolis.java.homework14.Person;
 import ru.innopolis.java.homework14.Product;
@@ -47,5 +48,12 @@ public class PersonTest {
     void testAddNegativeMoney() {
         assertThrows(IllegalArgumentException.class, () -> person.addMoney(-10));
     }
+    @Disabled
+    @Test
+    public void testIgnoredMethod() {
+        // Тест, который будет проигнорирован
+    }
+
+
 }
 
