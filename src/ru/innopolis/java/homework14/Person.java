@@ -84,4 +84,7 @@ public class Person {
     public int hashCode() {
         return name.hashCode();
     }
+
+    public void addMoney(int i) {
+    }
 }
